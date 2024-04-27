@@ -4,8 +4,8 @@ title = "A protocol for small transfers"
 [extra]
 lead = '<b>Cassis</b> is a way to leverage (and enhance) <b>social trust</b> in order to send satoshis without incurring in complicated and costly blockchain operations.'
 button_url = "/docs/getting-started/introduction/"
-button_text = "Get started"
-meta = "Beware: it may contain bugs."
+button_text = "Learn"
+meta = "Beware: <i>trust</i> is involved."
 
 # Menu items
 [[extra.menu.main]]
@@ -21,27 +21,27 @@ url = "/blog/"
 weight = 20
 
 [[extra.list]]
-title = "Security aware"
-content = 'Get A+ scores on <a href="https://observatory.mozilla.org/analyze/adidoks.org">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.'
+title = "Simple"
+content = "Cassis works in a traditional client-server topology, and only touches Bitcoin indirectly, therefore it is very easy to reason about and to implement wallets that talk to it."
 
 [[extra.list]]
-title = "Fast by default ⚡️"
-content = 'Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=7731347bb8ce999eff7428a8e763b637">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.'
+title = "Cheap"
+content = "Because it never touches the blockchain, transfer made through Cassis can be many orders of magnitude cheaper than other methods of making Bitcoin payments."
 
 [[extra.list]]
-title = "SEO-ready"
-content = "Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking."
+title = "Fast"
+content = "A Cassis Registry creates atomic transfers using pre-authorized scopes from participants. It's a fast operation with no communication overhead that takes less than a second."
 
 [[extra.list]]
-title = "Full text search"
-content = "Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking."
+title = "Compatible"
+content = "Transfers can be made conditional using a <i>hash-timelocked</i>-like scheme, so they can interface with the Lightning Network and other Bitcoin-native protocols atomically."
 
 [[extra.list]]
-title = "Page layouts"
-content = "Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs."
+title = "Social"
+content = "Cassis relies on <i>friend-to-friend</i> trust networks, so it in some ways it can also strenghten trust ties and grow communities of Bitcoiners, which is always good."
 
 [[extra.list]]
-title = "Dark mode"
-content = "Switch to a low-light UI with the click of a button. Change colors with variables to match your branding."
+title = "Micropayments"
+content = "Since Cassis transfers are not ever expected to be settled individually, they can be very small and thus power all types of commerce and online use-cases."
 
 +++

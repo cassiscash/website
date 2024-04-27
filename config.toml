@@ -80,7 +80,7 @@ weight = 20
 
 # Footer contents
 [extra.footer]
-info = 'A shitcoin-free project.'
+info = 'A Bitcoin-only, shitcoin-free project.'
 
 # [[extra.footer.nav]]
 # name = "Nothing"
