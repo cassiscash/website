@@ -65,8 +65,7 @@
       </div>
     </a>
   {% elif page.extra.top %}
-    {% set index_path = current_section ~ "/_index.md" | trim_start_matches(pat="/") %}
-    {% set index = get_section(path=index_path) %}
+    {% set index = get_section(path=current_section) %}
     {% set first_subsection = get_section(path=index.subsections | first) %}
     {% if first_subsection.pages %}
       {% set first_page = first_subsection.pages | first %}

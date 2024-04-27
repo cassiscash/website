@@ -6,9 +6,6 @@ updated = 2021-04-10T09:19:42+00:00
 draft = false
 template = "blog/page.html"
 
-[taxonomies]
-authors = ["Public"]
-
 +++
 
 Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit
