@@ -31,6 +31,10 @@ title = "Simple"
 content = "Cassis works in a traditional client-server topology, and only touches Bitcoin indirectly, therefore it is very easy to reason about and to implement wallets that talk to it."
 
 [[extra.list]]
+title = "Easy"
+content = "There is no need to run a daemon, to run a Bitcoin node or to worry about backups, seeds or exposed hot wallets."
+
+[[extra.list]]
 title = "Cheap"
 content = "Because it never touches the blockchain, transfer made through Cassis can be many orders of magnitude cheaper than other methods of making Bitcoin payments."
 
@@ -39,15 +43,11 @@ title = "Fast"
 content = "A Cassis Registry creates atomic transfers using pre-authorized scopes from participants. It's a fast operation with no communication overhead that takes less than a second."
 
 [[extra.list]]
-title = "Compatible"
-content = "Transfers can be made conditional using a <i>hash-timelocked</i>-like scheme, so they can interface with the Lightning Network and other Bitcoin-native protocols atomically."
-
-[[extra.list]]
 title = "Social"
 content = "Cassis relies on <i>friend-to-friend</i> trust networks, so it in some ways it can also strenghten trust ties and grow communities of Bitcoiners, which is always good."
 
 [[extra.list]]
-title = "Micropayments"
-content = "Since Cassis transfers are not ever expected to be settled individually, they can be very small and thus power all types of commerce and online use-cases."
+title = "Small"
+content = "Since Cassis transfers are not ever expected to be settled individually, they can power all types of commerce and online use-cases, including the dream of micropayments."
 
 +++
