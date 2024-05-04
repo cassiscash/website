@@ -17,9 +17,7 @@
 <link rel="preload" as="font" href="{{ get_url(path="fonts/vendor/jost/jost-v4-latin-regular.woff2") | safe }}" type="font/woff2" crossorigin>
 <link rel="preload" as="font" href="{{ get_url(path="fonts/vendor/jost/jost-v4-latin-700.woff2") | safe }}"  type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
-{% if title %}
-<title>{{ title ~ title_addition }}</title>
-{% endif %}
+<title>Cassis</title>
 
 <meta name="theme-color" content="{{ config.extra.theme_color | default(value="#fff") }}">
 <link rel="icon" type="image/png" href="{{ get_url(path="logo.png") | safe }}">
