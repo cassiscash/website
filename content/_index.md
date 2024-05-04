@@ -3,21 +3,21 @@ title = "A protocol for small transfers"
 
 [extra]
 lead = '<b>Cassis</b> is a way to leverage (and enhance) <b>social trust</b> in order to send satoshis without incurring in complicated and costly blockchain operations.'
-button_url = "/how-it-works/"
+button_url = "/getting-started/how-it-works/introduction"
 button_text = "Learn"
-meta = "Beware: <i>trust</i> is involved."
+meta = "Beware: <i><a target=_blank href=https://trustisascalingsolution.com/>trust</a></i> is involved."
 
 # Menu items
 [[extra.menu.main]]
 name = "How it works"
 section = "how"
-url = "/how-it-works/introduction"
+url = "/getting-started/how-it-works/introduction"
 weight = 10
 
 [[extra.menu.main]]
-name = "Use cases"
+name = "Theory"
 section = "use"
-url = "/use-cases/introduction"
+url = "/theory/introduction"
 weight = 15
 
 [[extra.menu.main]]
