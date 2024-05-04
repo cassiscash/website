@@ -1,38 +1,11 @@
 +++
 title = "Hello World"
-description = "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date = 2021-05-01T09:19:42+00:00
-updated = 2021-05-01T09:19:42+00:00
+date = 2024-05-04
 draft = false
 template = "blog/page.html"
 
 [extra]
-lead = "This is the source code of the traditional <b>Hello World</b> program."
+lead = "There is nothing to say, but this template had a blog section."
 +++
 
-```rust
-// This is a comment, and is ignored by the compiler
-
-// This is the main function
-fn main() {
-    // Statements here are executed when the compiled binary is called
-
-    // Print text to the console
-    println!("Hello World!");
-}
-```
-
-`println!` is a macro that prints text to the console.
-
-A binary can be generated using the Rust compiler: `rustc`.
-
-```bash
-$ rustc hello.rs
-```
-
-`rustc` will produce a `hello` binary that can be executed.
-
-```bash
-$ ./hello
-Hello World!
-```
+Maybe we will use this blog later, but for now please take a look at the [How it works](/getting-started/how-it-works/introduction) section to learn more about **Cassis**.
